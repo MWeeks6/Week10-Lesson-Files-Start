@@ -46,7 +46,7 @@
         "rainbow sprinkle confetti",
         "Norwegian goat milk"
       ],
-      "image" : "images/ice-cream-xtra1.svg"
+      "image" : "ice-cream-xtra1.svg"
     },
     {
       "name": "Loco Choco-chip",
@@ -57,7 +57,7 @@
         "oat cream",
         "Madagascar vanilla bean"
       ],
-      "image" : "images/ice-cream-xtra2.svg"
+      "image" : "ice-cream-xtra2.svg"
     }
   ]
 }

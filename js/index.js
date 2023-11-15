@@ -2,7 +2,7 @@
 const header = document.querySelector("header")
 const section = document.querySelector("section")
 /* STEP 3: Store the URL of a JSON file in a variable */
-const requestURL = "https://raw.githubusercontent.com/MWeeks6/Week10COMP1073/main/Week10%20Lesson%20Files%20Start/js/i-scream.json"
+const requestURL = "https://raw.githubusercontent.com/MWeeks6/Week10-Lesson-Files-Start/main/js/i-scream.json"
 /* STEP 4: Create a new XHR object */
 let request = new XMLHttpRequest()
 
@@ -50,7 +50,7 @@ function showTopFlavors(jsonObj){
         let list = document.createElement("ul")
 
         // STEP 10e: Set the textContent property for each of the above elements (except the UL), based on the JSON content
-        img.setAttribute("src", "https://raw.githubusercontent.com/MWeeks6/Week10COMP1073/main/Week10%20Lesson%20Files%20Start/images/" + topFlavors[i].image)
+        img.setAttribute("src", "https://raw.githubusercontent.com/MWeeks6/Week10-Lesson-Files-Start/main/images/" + topFlavors[i].image)
         img.setAttribute("alt", topFlavors[i].name)
         h2.textContent = topFlavors[i].name
         p1.textContent = `Calories: ${topFlavors[i].calories}`
